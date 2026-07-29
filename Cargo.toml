@@ -1,0 +1,12 @@
+[package]
+name = "OpenSMILES"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29.1"
+egui = "0.29.1"
+petgraph = "0.6.4"
+nalgebra = "0.32.3"
+rfd = "0.17.2"
+reqwest = { version = "0.13.4", features = ["blocking", "multipart"] }
